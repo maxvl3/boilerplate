@@ -4,7 +4,7 @@
 ## 🏎 F1 2022 seizoensverloop
 Mijn visualisatie laat het Formule 1 2022 seizoensverloop zien. De grafieksoort die ik hiervoor heb gebruikt is een horizontale barchart. De barchart laat per race de groei in kampioenschapspunten zien. Zo krijg je een goed beeld hoe het seizoen is verlopen.
 
-*De applicatie is ontworpen voor een 13inch laptop scherm, en kan dus op andere schermen niet correct getoond worden*
+*De applicatie is ontworpen voor een 13inch laptop scherm, en kan misschien op andere schermen niet correct weergegeven worden*
 
 ## ⚙️ Installeren
 Clone de repository
