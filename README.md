@@ -26,7 +26,7 @@ npm run dev
 De applicatie maakt gebruikt van een zelfgemaakte google sheet. Deze is te bekijken via de volgende link: https://docs.google.com/spreadsheets/d/1jmeYXeE-VrP_qJgBJFZyrcz4e3OAIo9IkDAMAR4h2Ek/edit?usp=sharing
 
 ## 📄 Licentie
-Er wordt gebruik gemaakt van de [MIT](https://github.com/maxvl3/blok-tech/blob/main/LICENSE) licentie binnen dit project.
+Er wordt gebruik gemaakt van de [MIT](https://github.com/maxvl3/data-visualisatie/blob/57a796185fbb6b0bf0a633bf0d6dd9b1e5b30420/LICENSE) licentie binnen dit project.
 
 ## ℹ️ Contact
 Naam: Max van Liempdt<br>
