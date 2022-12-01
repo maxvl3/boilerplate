@@ -4,7 +4,7 @@ import "../styles/style.scss";
 // D3 importeren
 import * as d3 from "d3";
 
-// gsap importeren
+// GreenSock importeren
 import gsap from "gsap";
 
 // breedte, hoogte en margins instellen voor de grafiek
