@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>F1 2022</title>
+  </head>
+  <body>
+    <!--Hier komt de grafiek gemaakt met D3.js-->
+    <div id="grafiek"></div>
+
+    <!--Alle basis info per grand prix-->
+    <div class="container" id="bahrain">
+      <h2>Race 1</h2>
+      <h1>Bahrain Grand Prix</h1>
+      <h2>18 - 20 MAR</h2>
+      <img src="/images/bahrain.png" alt="" />
+      <button id="openSaudi">Next</button>
+    </div>
+
+    <div class="container" id="saudi">
+      <h2>Race 2</h2>
+      <h1>Saudi Arabia Grand Prix</h1>
+      <h2>25 - 27 MAR</h2>
+      <img src="/images/saudi.png" alt="" />
+      <button id="openAustralia">Next</button>
+    </div>
+
+    <div class="container" id="australia">
+      <h2>Race 3</h2>
+      <h1>Australia Grand Prix</h1>
+      <h2>08 - 10 APR</h2>
+      <img src="/images/australia.png" alt="" />
+      <button id="openItaly">Next</button>
+    </div>
+
+    <div class="container" id="italy">
+      <h2>Race 4</h2>
+      <h1>Italy Prix</h1>
+      <h2>22 - 24 APR</h2>
+      <img src="/images/italy.png" alt="" />
+      <button id="openUsa">Next</button>
+    </div>
+
+    <div class="container" id="usa">
+      <h2>Race 5</h2>
+      <h1>United states Grand Prix</h1>
+      <h2>06 - 08 MAY</h2>
+      <img src="/images/usa.png" alt="" />
+      <button id="openSpain">Next</button>
+    </div>
+
+    <div class="container" id="spain">
+      <h2>Race 6</h2>
+      <h1>Spain Grand Prix</h1>
+      <h2>20 - 22 MAY</h2>
+      <img src="/images/spain.png" alt="" />
+      <button id="openMonaco">Next</button>
+    </div>
+
+    <div class="container" id="monaco">
+      <h2>Race 7</h2>
+      <h1>Monaco Grand Prix</h1>
+      <h2>27 - 29 MAY</h2>
+      <img src="/images/monaco.png" alt="" />
+      <button id="openAzer">Next</button>
+    </div>
+
+    <div class="container" id="azer">
+      <h2>Race 8</h2>
+      <h1>Azerbaijan Grand Prix</h1>
+      <h2>10 - 12 JUN</h2>
+      <img src="/images/azer.png" alt="" />
+      <button id="openCanada">Next</button>
+    </div>
+
+    <div class="container" id="canada">
+      <h2>Race 9</h2>
+      <h1>Canada Grand Prix</h1>
+      <h2>17 - 19 JUN</h2>
+      <img src="/images/canada.png" alt="" />
+      <button id="openGreat">Next</button>
+    </div>
+
+    <div class="container" id="great">
+      <h2>Race 10</h2>
+      <h1>Great Britain Grand Prix</h1>
+      <h2>01 - 03 JUL</h2>
+      <img src="/images/great.png" alt="" />
+      <button id="openAustria">Next</button>
+    </div>
+
+    <div class="container" id="austria">
+      <h2>Race 11</h2>
+      <h1>Austria Grand Prix</h1>
+      <h2>08 - 10 JUL</h2>
+      <img src="/images/austria.png" alt="" />
+      <button id="openFrance">Next</button>
+    </div>
+
+    <div class="container" id="france">
+      <h2>Race 12</h2>
+      <h1>France Grand Prix</h1>
+      <h2>22 - 24 JUL</h2>
+      <img src="/images/france.png" alt="" />
+      <button id="openHungary">Next</button>
+    </div>
+
+    <div class="container" id="hungary">
+      <h2>Race 13</h2>
+      <h1>Hungary Grand Prix</h1>
+      <h2>29 - 31 JUL</h2>
+      <img src="/images/hungary.png" alt="" />
+      <button id="openBelgium">Next</button>
+    </div>
+
+    <div class="container" id="belgium">
+      <h2>Race 14</h2>
+      <h1>Belgium Grand Prix</h1>
+      <h2>26 - 28 AUG</h2>
+      <img src="/images/belgium.png" alt="" />
+      <button id="openNetherlands">Next</button>
+    </div>
+
+    <div class="container" id="netherlands">
+      <h2>Race 15</h2>
+      <h1>Netherlands Grand Prix</h1>
+      <h2>02 - 04 SEP</h2>
+      <img src="/images/netherlands.png" alt="" />
+      <button id="openItaly2">Next</button>
+    </div>
+
+    <div class="container" id="italy2">
+      <h2>Race 16</h2>
+      <h1>Italy 2nd Grand Prix</h1>
+      <h2>09 - 11 SEP</h2>
+      <img src="/images/italy2.png" alt="" />
+      <button id="openSingapore">Next</button>
+    </div>
+
+    <div class="container" id="singapore">
+      <h2>Race 17</h2>
+      <h1>Singapore Grand Prix</h1>
+      <h2>30 SEP - 02 OCT</h2>
+      <img src="/images/singapore.png" alt="" />
+      <button id="openJapan">Next</button>
+    </div>
+
+    <div class="container" id="japan">
+      <h2>Race 18</h2>
+      <h1>Japan Grand Prix</h1>
+      <h2>07 - 09 OCT</h2>
+      <img src="/images/japan.png" alt="" />
+      <button id="openUsa2">Next</button>
+    </div>
+
+    <div class="container" id="usa2">
+      <h2>Race 19</h2>
+      <h1>United States 2nd Grand Prix</h1>
+      <h2>21 - 23 OCT</h2>
+      <img src="/images/usa2.png" alt="" />
+      <button id="openMexico">Next</button>
+    </div>
+
+    <div class="container" id="mexico">
+      <h2>Race 20</h2>
+      <h1>Mexico Grand Prix</h1>
+      <h2>28 - 30 OCT</h2>
+      <img src="/images/mexico.png" alt="" />
+      <button id="openBrazil">Next</button>
+    </div>
+
+    <div class="container" id="brazil">
+      <h2>Race 21</h2>
+      <h1>Brazil Grand Prix</h1>
+      <h2>11 - 13 NOV</h2>
+      <img src="/images/brazil.png" alt="" />
+      <button id="openAbu">Next</button>
+    </div>
+
+    <div class="container" id="abu">
+      <h2>Race 22</h2>
+      <h1>Abu Dhabi Grand Prix</h1>
+      <h2>18 - 20 NOV</h2>
+      <img src="/images/abu.png" alt="" />
+    </div>
+
+    <!--Koppeling naar mijn javascript bestand-->
+    <script type="module" src="./scripts/main.js"></script>
+  </body>
+</html>
